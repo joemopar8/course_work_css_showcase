@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(141, 235, 230);
+}
+
+p {
+  color: green;
+}
+
+h1 {
+  /* A block-level element can take height and width */
+  width: 35%;
+  height: 150px;
+  color: brown;
+  background-color: goldenrod;
+  margin-left: 33%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: purple;
+}
+
+hr {
+  background-color: blue;
+  height: 3px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+span {
+  /* An inline-level element cannot take height or width */
+  padding: 5px;
+  background-color: darkolivegreen;
+  color: yellow;
+  width: 200px;
+  width: 200px;
+  margin-top: 200;
+  margin-left: 200px;
+}
+
+div {
+  background-color: khaki;
+  color: blueviolet;
+
+  /* border */
+  border-top: 10px solid red;
+  border-right: 10px dotted green;
+  border-left: 10px dashed blue;
+  border-bottom: 25px solid orange;
+
+  /* padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 15px; */
+
+  /* padding shorthand */
+  padding: 20px 0px 20px 15px;
+
+  /* margin */
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
